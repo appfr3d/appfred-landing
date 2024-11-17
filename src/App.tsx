@@ -1,13 +1,14 @@
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { TiltImage } from "./components/TiltImage";
 
 export default function App() {
   return (
     <div className="h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
       <div className="text-center p-8">
-        <img
+        <TiltImage
           src="/image-of-me-square.jpeg"
           alt="Alfred Lieth Årøe, aka Appfred"
-          className="w-48 h-48 rounded-full mx-auto mb-8 object-cover ring-2 ring-gray-200 dark:ring-gray-700"
+          className="w-48 h-48 mx-auto mb-8"
         />
 
         <h1 className="text-4xl font-bold mb-1 text-gray-900 dark:text-white">
