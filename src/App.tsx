@@ -1,24 +1,12 @@
-import { type MetaFunction } from "@remix-run/node";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: "Alfred Lieth Årøe - Mobile App Developer" },
-    {
-      name: "description",
-      content:
-        "Mobile app developer specializing in React Native, Expo, TypeScript and Swift",
-    },
-  ];
-};
-
-export default function Index() {
+export default function App() {
   return (
     <div className="h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
       <div className="text-center p-8">
         <img
           src="/image-of-me-square.jpeg"
-          alt="Your Name"
+          alt="Alfred Lieth Årøe, aka Appfred"
           className="w-48 h-48 rounded-full mx-auto mb-8 object-cover ring-2 ring-gray-200 dark:ring-gray-700"
         />
 
