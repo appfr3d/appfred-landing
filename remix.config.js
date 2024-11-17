@@ -5,4 +5,5 @@ export default {
   serverPlatform: "node",
   publicPath: "/build/",
   serverBuildPath: "build/index.js",
+  tailwind: true,
 };
