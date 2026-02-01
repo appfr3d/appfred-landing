@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./guess_the_impostor_privacy_policy/index.html",
+    "./guess_the_imposter_privacy_policy/index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {

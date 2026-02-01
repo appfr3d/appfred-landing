@@ -4,7 +4,7 @@ export default function PrivacyPolicyPage() {
       <main className="mx-auto max-w-3xl px-6 py-12">
         <header className="mb-10">
           <p className="text-sm text-gray-600 dark:text-gray-300">
-            App: <span className="font-medium">Guess the Impostor</span>
+            App: <span className="font-medium">Guess the imposter</span>
           </p>
           <h1 className="mt-2 text-3xl font-bold tracking-tight">
             Privacy Policy
@@ -20,8 +20,8 @@ export default function PrivacyPolicyPage() {
           <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm dark:border-gray-700 dark:bg-gray-800">
             <h2 className="text-lg font-semibold">Summary</h2>
             <p className="mt-2 text-gray-700 dark:text-gray-200">
-              Guess the Impostor does not collect any user data. The app does not
-              connect to the internet.
+              Guess the imposter does not collect any user data. The app does
+              not connect to the internet.
             </p>
           </div>
 
@@ -30,12 +30,15 @@ export default function PrivacyPolicyPage() {
             <p className="text-gray-700 dark:text-gray-200">
               We do not collect, store, or transmit any personal data. This
               includes (but is not limited to) names, email addresses, precise
-              location, contacts, identifiers, usage analytics, and crash reports.
+              location, contacts, identifiers, usage analytics, and crash
+              reports.
             </p>
           </div>
 
           <div className="space-y-3">
-            <h2 className="text-xl font-semibold">Internet and Network Access</h2>
+            <h2 className="text-xl font-semibold">
+              Internet and Network Access
+            </h2>
             <p className="text-gray-700 dark:text-gray-200">
               The app is designed to work fully offline and does not connect to
               the internet.
@@ -45,7 +48,7 @@ export default function PrivacyPolicyPage() {
           <div className="space-y-3">
             <h2 className="text-xl font-semibold">Third-Party Services</h2>
             <p className="text-gray-700 dark:text-gray-200">
-              Guess the Impostor does not use third-party analytics, advertising
+              Guess the imposter does not use third-party analytics, advertising
               SDKs, or other third-party services that collect data.
             </p>
           </div>
