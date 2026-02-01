@@ -1,6 +1,9 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-import { resolve } from "node:path";
+import { resolve, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const currentDir = dirname(fileURLToPath(import.meta.url));
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -9,9 +12,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "index.html"),
+        main: resolve(currentDir, "index.html"),
         guess_the_impostor_privacy_policy: resolve(
-          __dirname,
+          currentDir,
           "guess_the_impostor_privacy_policy/index.html",
         ),
       },
