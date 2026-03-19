@@ -13,6 +13,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(currentDir, "index.html"),
+        support: resolve(currentDir, "support/index.html"),
         guess_the_imposter_privacy_policy: resolve(
           currentDir,
           "guess_the_imposter_privacy_policy/index.html",

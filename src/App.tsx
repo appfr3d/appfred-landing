@@ -25,8 +25,15 @@ export default function App() {
           </span>
         </p>
 
+        <a
+          href="/support"
+          className="inline-flex items-center rounded-full border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-800 transition-colors hover:border-gray-900 hover:bg-gray-900 hover:text-white dark:border-gray-700 dark:text-gray-100 dark:hover:border-white dark:hover:bg-white dark:hover:text-gray-900"
+        >
+          Support
+        </a>
+
         <div
-          className="flex justify-center gap-6"
+          className="mt-8 flex justify-center gap-6"
           role="navigation"
           aria-label="Social media links"
         >
